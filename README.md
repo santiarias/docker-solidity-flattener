@@ -1,4 +1,4 @@
-# docker-solidity-flattener
+# Docker Solidity Flattener
 
 A docker wrapper for [BlockCatIO's solidity-flattener] (https://github.com/BlockCatIO/solidity-flattener), so you don't have to install any dependencies in your local machine to flatten solidity code!
 
