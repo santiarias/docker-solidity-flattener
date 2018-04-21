@@ -11,9 +11,10 @@ Clone this repo, and build the docker image with 2 parameters:
 ```
 git clone https://github.com/santiarias/docker-solidity-flattener
 cd docker-solidity-flattener
-docker build -t solidity-flattener --build-arg SOURCE=crowdsale --build-arg CONTRACT=Crowdsale.sol .
+docker build -t solidity-flattener --build-arg SOURCE=example/crowdsale --build-arg CONTRACT=Crowdsale.sol .
 docker run solidity-flattener
 ```
+Replace the SOURCE and CONTRACT variables with your own values.
 
 ## License
 
