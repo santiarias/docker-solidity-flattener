@@ -1,0 +1,1 @@
+# docker-solidity-flattener
